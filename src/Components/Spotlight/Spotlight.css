@@ -1,0 +1,84 @@
+.spotlight{
+    height: 700px;
+}
+.banner{
+    width: 100%;
+    background-color: #605DEC;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: w;
+}
+.navList ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: small;
+}
+.navList{
+    display: flex;
+    gap: 20px;
+}
+.SignupBut{
+    margin-top: -10px;
+}
+.SignupBut button{
+    color: white;
+    background-color: 
+    #605DEC;
+    height:40px;
+    width: 84px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: small;
+}
+.SignupBut button:hover{
+    background-color: white;
+    color:#605DEC ;
+}
+.spotlightDiv{
+    margin-top: 80px;
+}
+.spotlightDiv h1{
+    margin: 0 auto;
+   width: 633px;
+   text-align: center;
+   height: 265px;
+   font-family: "Nunito Sans";
+   font-weight: 800;
+   align-items: center;
+   font-size: 80px;
+   color:#605DEC ;
+}
+.spotInput{
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+}
+.Inputs{
+    border: 1px solid 
+    #CBD4E6;
+    border-radius: 1px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.SearchBut button{
+    color: white;
+    background-color: 
+    #605DEC;
+    height:40px;
+    width: 84px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: small;
+}

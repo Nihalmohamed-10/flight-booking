@@ -1,0 +1,65 @@
+.signin{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid
+    #CBD4E6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signinFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.signinFlex h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: 
+    #6E7491;
+}
+.signinPara{
+    width: 400px;
+    text-align: start;
+    padding: 10px;
+}
+.signinPara p{
+    font-size: 16px;
+    font-weight: 400;
+    color: 
+    #7C8DB0;
+}
+.signinInputs{
+    padding: 10px;
+    margin-top: -10px;
+}
+.signinInputs input{
+    font-size: 16px;
+    display: block;
+    border: 1px solid 
+    #A1B0CC;
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 10px;
+    color: 
+    #7C8DB0;
+    font-weight: 400;
+}
+
+.loginAcntBtn{
+    padding: 10px;
+    margin-top: 5px;
+}
+.loginAcntBtn button{
+    background-color: 
+    #605DEC;
+    color: 
+    #FAFAFA;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}

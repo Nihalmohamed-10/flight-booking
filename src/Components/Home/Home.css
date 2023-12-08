@@ -1,0 +1,500 @@
+
+.spotlight {
+  height: 475px;
+  background-image: url('');
+}
+.banner{
+    position: relative;
+}
+.banner a{
+    position: absolute;
+    right: 25px;
+    top: 13px;
+    font-size: x-large;
+    color: white; 
+}
+.banner {
+  width: 100%;
+  background-color: #605dec;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+}
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.logo {
+  width: 131px;
+  padding-left: 15px;
+}
+
+.logo img {
+  width: 100%;
+  display: block;
+}
+
+
+.navList ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-size: small;
+}
+
+.navList ul li {
+  font-size: 16px;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    z-index: 1;
+    transition: 0.5s;
+}
+.hamburger{
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.3s;
+}
+.hamburger:before,
+.hamburger:after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hamburger:before{
+  top: -10px;
+  width: 20px;
+}
+.hamburger:after{
+  top: 10px;
+  width: 25px;
+}
+.toggle-menu{
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  z-index: 3;
+  cursor: pointer;
+  opacity: 0;
+}
+.hamburger,.toggle-menu{
+  display: none;
+}
+.nav input:checked ~ .hamburger{
+  background-color: transparent;
+}
+.nav input:checked ~.hamburger:before{
+  top: 0;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+.nav input:checked ~.hamburger:after{
+  top: 0;
+  transform: rotate(45deg);
+  width: 30px;
+}
+.nav input:checked ~.navList{
+  right: 0px;
+  box-shadow: -20px 0px 40px;
+} */
+/* .SignupBut {
+  margin-top: -10px;
+}
+.SignupBut button {
+  color: white;
+  background-color: #605dec;
+  height: 40px;
+  width: 84px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: small;
+}
+.SignupBut button:hover {
+  background-color: white;
+  color: #605dec;
+} */
+.spotlightDiv {
+  margin-top: 80px;
+}
+.spotlightDiv h1 {
+  margin: 0 auto;
+  width: 633px;
+  text-align: center;
+  height: 265px;
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  align-items: center;
+  font-size: 80px;
+  color: #605dec;
+}
+/* .inputDiv {
+  margin-top: 10px;
+}
+.spotInput {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+.Inputs {
+  border: 1px solid #cbd4e6;
+  border-radius: 1px;
+  padding: 10px;
+  width: 250px;
+  height: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #7c8db0;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+select::after {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Inputs option {
+  color: #7c8db0;
+}
+.SearchBut {
+  margin-top: 10px;
+}
+.SearchBut button {
+  color: white;
+  background-color: #605dec;
+  height: 40px;
+  width: 84px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: small;
+} */
+.cardSection {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.all {
+  width: 60px;
+}
+.all a {
+  padding-right: 10px;
+}
+
+.vector {
+  width: 18px;
+}
+.cardSection h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6e7491;
+}
+.cardSection span a {
+  color: #605dec;
+  font-size: 18px;
+  font-weight: 600;
+}
+.cardSection p a {
+  color: #a1b0cc;
+  font-weight: 600;
+}
+.div4cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divCard {
+  border-radius: 6px;
+  margin-top: 30px;
+  width: 383px;
+  border: 1px solid #cbd4e6;
+  box-shadow: 5% 5% 0 0 #000000, 10% 10% 0 0 #1c054d;
+}
+.cardImgDiv {
+  width: 100%;
+}
+.cardImgDiv img {
+  width: 100%;
+  height: 410px;
+  display: block;
+  border-radius: 6px;
+}
+.lastDivCard {
+  width: 100%;
+}
+.loc_rate {
+  padding: 9px 19px 10px 14px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.loc_rate p {
+  color: #6e7491;
+}
+.loc_rate span a {
+  color: #605dec;
+  font-size: 16px;
+  font-weight: 600;
+}
+.loc_rate p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6e7491;
+}
+.cardHighlight p {
+  padding: 4px 10px 10px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6e7491;
+  text-align: start;
+}
+
+.secondCardSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.secondCardSection h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6e7491;
+}
+.secondCardSection span a {
+  color: #22c3a6;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondDivCard {
+  border-radius: 6px;
+  margin-top: 30px;
+  width: 383px;
+  border: 1px solid #cbd4e6;
+  box-shadow: 5% 5% 0 0 #000000, 10% 10% 0 0 #1c054d;
+}
+.secondDivCard span a {
+  color: #22c3a6;
+}
+.secondCardSection p a {
+  color: #a1b0cc;
+  font-weight: 600;
+}
+.moreStays {
+  margin-top: 70px;
+}
+.moreStays button {
+  color: white;
+  background-color: #605dec;
+  height: 37px;
+  width: 135px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: small;
+}
+.review {
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+.review h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #6e7491;
+}
+.review span a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #605dec;
+}
+.userCardDiv {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.userCards {
+  padding: 10px;
+  width: 370px;
+}
+.photoNdName {
+  display: flex;
+  justify-content: space-evenly;
+}
+.userImg {
+  width: 297px;
+}
+.userImg img {
+  width: 100%;
+  display: block;
+  border-radius: 22px;
+  height: 48px;
+}
+.userContent {
+  text-align: start;
+  padding-left: 20px;
+}
+.userNameP {
+  /* padding-left: 37px; */
+  font-size: 18px;
+  font-weight: 600;
+  color: #6e7491;
+  text-align: start;
+}
+.userPlaceP {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6e7491;
+}
+.userRating {
+  margin-top: 10px;
+}
+.reviewP {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #27273f;
+}
+
+
+@media all and (max-width: 1051px) {
+  .spotlight{
+    height: 625px;
+  }
+  .Inputs {
+    width: 316px;
+  }
+  .spotInput {
+    justify-content: center;
+  }
+  .div4cards {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .userCardDiv {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 771px) {
+  .hamburger,.toggle-menu{
+    display: block;
+  }
+.navList {
+  
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  background-color: blue;
+  width: 300px;
+  height: 100%;
+  padding-top: 65px;
+}
+
+.navList li{
+  display: none;
+    width: 100%;
+}
+.navList li a,
+.navList li a:hover{
+    padding: 30px;
+    font-size: 24px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+}
+@media all and (max-width:641px){
+  .Inputs{
+    width: 285px;
+  }
+}
+@media all and (max-width: 481px) {
+  .spotlightDiv {
+    margin-top: 40px;
+    height: 213px;
+  }
+  .spotlightDiv h1 {
+    width: 410px;
+    font-size: 60px;
+  }
+  .cardSection h3{
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 361px) {
+    .spotlightDiv{
+        height: 194px;
+    }
+  .spotlightDiv h1 {
+    width: 350px;
+    font-size: 53px;
+  }
+  .cardSection{
+    margin-top: 20px;
+    align-items: center;
+  }
+  .cardSection h3{
+    text-align: start;
+    width: 233px;
+  }
+  .userCards{
+    width: 360px;
+  }
+  .review h3{
+    font-size: 22px;
+  }
+}
+@media all and (max-width:321px){
+    .spotlightDiv h1{
+        width: 318px;
+    font-size: 45px;
+    }
+    .userCards{
+        width: 300px;
+        margin-top: 15px;
+    }
+    .userImg{
+        width: 365px;
+    }
+    .Inputs{
+      width: 270px;
+    }
+    .cardSection h3{
+      width: 208px;
+    }
+    .secondCardSection{
+      align-items: center;
+    }
+    .secondCardSection h3{
+      text-align: start;
+    }
+    .review h3{
+      text-align: start;
+    }
+}

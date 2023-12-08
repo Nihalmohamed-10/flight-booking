@@ -1,0 +1,48 @@
+.inputDiv {
+    margin-top: 10px;
+  }
+  .spotInput {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+  .Inputs {
+    border: 1px solid #cbd4e6;
+    border-radius: 1px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #7c8db0;
+  }
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  select::after {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .Inputs option {
+    color: #7c8db0;
+  }
+  .SearchBut {
+    margin-top: 10px;
+  }
+  .SearchBut button {
+    color: white;
+    background-color: #605dec;
+    height: 40px;
+    width: 84px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: small;
+  }

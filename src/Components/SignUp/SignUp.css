@@ -1,0 +1,100 @@
+.signup{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid
+    #CBD4E6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signupFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.signupFlex h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: 
+    #6E7491;
+}
+.signupPara{
+    width: 400px;
+    text-align: start;
+    padding: 10px;
+}
+.signupPara p{
+    font-size: 16px;
+    font-weight: 400;
+    color: 
+    #7C8DB0;
+}
+.signupInputs{
+    padding: 10px;
+    margin-top: -10px;
+}
+.signupInputs input{
+    font-size: 16px;
+    display: block;
+    border: 1px solid 
+    #A1B0CC;
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 10px;
+    color: 
+    #7C8DB0;
+    font-weight: 400;
+}
+.signupCheckBox{
+
+    text-align: start;
+    padding: 10px;
+
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+.signupCheckBox p{
+    color: 
+    #6E7491;
+}
+.signupCheckBox label{
+    margin-top: 10px;
+    color: 
+    #6E7491;
+}
+.signupCheckBox span a{
+    color: 
+    #605DEC;
+}
+.createAcntBtn{
+    padding: 10px;
+    margin-top: 5px;
+}
+.createAcntBtn button{
+    background-color: 
+    #605DEC;
+    color: 
+    #FAFAFA;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.continueWith{
+    padding: 10px;
+}
+.continueWith button{
+    background-color: white
+    ;
+    color: #605DEC;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #605DEC;
+    border-radius: 5px;
+    margin-top: 15px;
+}
